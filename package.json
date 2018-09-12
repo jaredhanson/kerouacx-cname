@@ -1,6 +1,6 @@
 {
   "name": "@kerouac/cname",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Kerouac CNAME components for Bixby.js.",
   "keywords": [
     "kerouac",
