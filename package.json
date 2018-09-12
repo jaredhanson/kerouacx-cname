@@ -1,0 +1,42 @@
+{
+  "name": "@kerouac/cname",
+  "version": "0.0.0",
+  "description": "Kerouac CNAME components for Bixby.js.",
+  "keywords": [
+    "kerouac",
+    "github",
+    "cname"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/kerouacx-cname.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/kerouacx-cname/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./app",
+  "dependencies": {
+    "kerouac": "^0.1.0",
+    "kerouac-cname": "^0.2.1"
+  },
+  "devDependencies": {
+    "make-node": "^0.3.0",
+    "mocha": "^5.2.0",
+    "chai": "^4.1.2"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.test.js"
+  }
+}
