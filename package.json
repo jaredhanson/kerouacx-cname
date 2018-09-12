@@ -27,6 +27,12 @@
     }
   ],
   "main": "./app",
+  "assembly": {
+    "namespace": "org.kerouacjs/dns/cname",
+    "components": [
+      "site"
+    ]
+  },
   "dependencies": {
     "kerouac": "^0.1.0",
     "kerouac-cname": "^0.2.1"
